@@ -27,7 +27,7 @@ Fig. 2.
 <img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/solid.jpg alt="alt text" width=300 height=250>
 
 Fig. 3.
-<img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/device.jpg alt="alt text" width=600 height=250>
+<img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/device.jpg alt="alt text" width=550 height=250>
 
 The position of the tube is controlled by two servomotors, whose angles are calculated by
 the Arduino. More specifically, the purpose of the Arduino program is to align the tube
@@ -43,7 +43,7 @@ Fig. 4.
 
 
 <img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/LangleyPlots.jpg alt="alt text" width=550 height=250>
-Fig. 5.Langley Plots fitted using data from (a) March 22 and (b) March 23
+Fig. 5. Langley plots fitted using data from (a) March 22 and (b) March 23
 
 
 ## Usage
