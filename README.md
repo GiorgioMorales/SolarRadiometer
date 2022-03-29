@@ -58,7 +58,7 @@ This repository contains the following folders and scripts:
 * `Read_Solar.py`: Python script that reads the collected data (.CSV files from the `data` folder) and generates the Langley plots (Fig. 5 and 6).        
 * `utils.py`: Python script that contains the functions used to calculate the zenith angle, distance from Sun to Earth, air mass correction, etc.
 * `Arduino\SolarRadiometer.ino`: Arduino program that controls the servomotors and stores the data automatically thorough the day.
-* `Hardware_Solidworks\`: Folder that contains the Solidworks files of the structure of the device. The subfolder `Files ready for printing` contains the files that can be directly 3D-printed.
+* `Hardware_Solidworks\`: Folder that contains the Solidworks files of the structure of the device. The subfolder `Files ready for printing` contains the files that can be directly 3D-printed. The design of the moving base was adapted from https://github.com/BrownDogGadgets/SolarTracker
 
 
 
