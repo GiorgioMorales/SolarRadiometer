@@ -62,7 +62,9 @@ This repository contains the following folders and scripts:
 ## References
 [1] Forrest M. Mims. Sun photometer with light-emitting diodes as spectrally selective de-
 tectors. Appl. Opt., 31(33):6965–6967, Nov 1992
+
 [2] Joseph Shaw. Lecture notes in remote sensing systems, EELE 583 - Spring 2022, Montana
 State University.
+
 [3] Glenn E. Shaw. Sun photometry. Bulletin of the American Meteorological Society, 64(1):4
 – 10, 1983
