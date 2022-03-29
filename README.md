@@ -27,7 +27,10 @@ Fig. 2.
 <img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/solid.jpg alt="alt text" width=300 height=250>
 
 Fig. 3.
-<img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/device.jpg alt="alt text" width=550 height=250>
+<img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/device.jpg alt="alt text" width=320 height=150>
+
+Fig. 4.
+<img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/Afterhours.jpg alt="alt text" width=450 height=250>
 
 The position of the tube is controlled by two servomotors, whose angles are calculated by
 the Arduino. More specifically, the purpose of the Arduino program is to align the tube
@@ -36,21 +39,23 @@ zenith angles constantly.
 
 ## Results
 
-An example of the data collected is shown in Fig. 4. From this, we obtained the Langley plot shown in Fig. 5.
+An example of the data collected is shown in Fig. 5. From this, we obtained the Langley plot shown in Fig. 6.
 
-Fig. 4.
+Fig. 5.
 <img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/VoltagevsHourMarch23warrows.png alt="alt text" width=450 height=250>
 
 
 <img src=https://github.com/GiorgioMorales/SolarRadiometer/blob/master/Images/LangleyPlots.jpg alt="alt text" width=550 height=250>
-Fig. 5. Langley plots fitted using data from (a) March 22 and (b) March 23
+Fig. 6. Langley plots fitted using data from (a) March 22 and (b) March 23
+
+
 
 
 ## Usage
 
 This repository contains the following folders and scripts:
 
-* `Read_Solar.py`: Python script that reads the collected data (.CSV files from the `data` folder) and generates the Langley plots (Fig. 4 and 5).        
+* `Read_Solar.py`: Python script that reads the collected data (.CSV files from the `data` folder) and generates the Langley plots (Fig. 5 and 6).        
 * `utils.py`: Python script that contains the functions used to calculate the zenith angle, distance from Sun to Earth, air mass correction, etc.
 * `Arduino\SolarRadiometer.ino`: Arduino program that controls the servomotors and stores the data automatically thorough the day.
 * `Hardware_Solidworks\`: Folder that contains the Solidworks files of the structure of the device. The subfolder `Files ready for printing` contains the files that can be directly 3D-printed.
