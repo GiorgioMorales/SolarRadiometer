@@ -20,7 +20,7 @@ circuit current is amplified by an operational amplifier (LM324) using a feedbac
 Rf = 4M Ω. The amplified signal (voltage) is automatically read by an Arduino UNO. The
 amplifier circuit uses a voltage source of ±9V while the servomotors are powered with a
 separate voltage source of 5V . The implemented device is shown in Fig. 3. Note that Fig. 3
-shows that a red LED was used for initial experiments; however, a green LED (475 nm) was
+shows that a red LED was used for initial experiments; however, a green LED (520nm) was
 used to collect the data used in this report.
 
 Fig. 2.
